@@ -1,0 +1,19 @@
+<ons-page>
+  <ons-toolbar>
+    <div class="center">主页</div>
+    <div class="left">
+      <ons-toolbar-button ng-click="ons.slidingMenu.toggleMenu()">
+        <ons-icon icon="bars">
+      </ons-toolbar-button>
+    </div>
+  </ons-toolbar>
+
+  <ons-row style="margin-top: 100px;">
+    <ons-col align="center">
+      <ons-button modifier="light" ng-click="ons.slidingMenu.toggleMenu()">
+        Toggle Menu
+      </ons-button>
+      <p style="color: #999">Click "Toggle Menu" to close/open menu, You can also swipe the page left/right.</p>
+    </ons-col>
+  </ons-row>
+</ons-page>
